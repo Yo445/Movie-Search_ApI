@@ -1,0 +1,54 @@
+/* ShowDetails.css */
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: linear-gradient(to bottom right, #73cece, #451576);
+}
+
+.show-details {
+  text-align: center;
+  background-image: linear-gradient(to bottom right, #73cece, #451576);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+}
+
+.show-details h2 {
+  color: #5e055e; /* Dark purple color for the title */
+  margin-bottom: 10px;
+}
+
+.show-details img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.show-details p {
+  color: #2c053b; /* Dark purple color for the summary text */
+  line-height: 1.5;
+}
+body{
+  background-image: linear-gradient(to bottom right, #73cece, #451576);
+  background-size:cover;
+  min-height: 95vh;
+  padding: 15px;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: transparent;
+  color: #5e055e;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.close-button:hover {
+  color: #721694; /* Darker purple color on hover */
+}
